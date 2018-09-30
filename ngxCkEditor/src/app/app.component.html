@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="mt-5" style="text-align:center">
+	<h3><u>ngx-ckeditor</u></h3>
+	<div class="col-sm-6 margin mt-5">
+  		<ck-editor name="editor1" [config]="{enterMode: 2}" skin="moono-lisa" language="en" [(ngModel)]="text" [fullPage]="true"></ck-editor>
+  		<div class="mt-5">
+  			<span [innerHTML]="text"></span>
+  		</div>
+  	</div>
+</div>
+
+<router-outlet></router-outlet>
